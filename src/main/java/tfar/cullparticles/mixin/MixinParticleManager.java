@@ -1,14 +1,12 @@
 package tfar.cullparticles.mixin;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.Particle;
 import net.minecraft.client.particle.ParticleManager;
 import net.minecraft.client.renderer.ActiveRenderInfo;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
-import tfar.cullparticles.Clipper;
 import tfar.cullparticles.MixinHooks;
 
 @Mixin(ParticleManager.class)
